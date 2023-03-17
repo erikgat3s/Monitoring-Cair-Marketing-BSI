@@ -1,0 +1,100 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    font-family: 'Lato';
+    font-size: 16px;
+    overflow-y: hidden; /* Show scrollbar for vertical scrolling */
+    margin-bottom: 50px; /* Height of the footer */
+  }
+  
+  ::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for WebKit browsers */
+  }
+  header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #17a2b8;
+}
+  .footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
+    background-color: #ffc107;
+    color: #fff;
+    padding-left: 21%;
+  }
+  
+  .footer .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0px 15px;
+  }
+.nav-link{
+    color:#fff;
+}
+.nav-link:hover {
+    color: #ffc107;
+    background-color: transparent;
+}
+.droptbl:hover{
+    color: #fff;
+    background-color: #17a2b8;
+}
+.btn{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #fff;
+    max-width: auto; height: auto;
+}
+.btn:hover {
+    color: #fff;
+    background-color: #117a8a;
+    
+  }
+  .btn-edit{
+    color: #fff;
+    background-color: #ffc107;
+    border-color: transparent;
+    max-width: auto; height: auto;
+  }
+  .btn-cancel {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #fff;
+    max-width: auto; height: auto;
+  }
+  .btn-edit:hover {
+    color: #fff;
+    background-color: #c49405;
+    border-color: #fff;
+    max-width: auto; height: auto;
+  }
+  .btn-cancel:hover {
+    color: #fff;
+    background-color: #a17a06;
+    border-color: #fff;
+    max-width: auto; height: auto;
+  }
+.pagination .page-link {
+    color: #f8f9fa;
+    background-color: #17a2b8;
+    border-color: transparent;
+  }
+
+  .pagination .page-link:hover,
+  .pagination .page-link:focus {
+    color: #fff;
+    background-color: #0e6674;
+    border-color: #0e6674;
+  }
+
+  .pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: transparent;
+  }
+
